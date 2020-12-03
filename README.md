@@ -54,7 +54,11 @@ There are 10 test case files, and 1 excel file.
 ### Test Case Files
 The test case files are text files that are a record of the original test cases provided by Aneo.
 The source code written **does not** actively leverage those test case files. They are here for you to be able to reference
-them in case the puzzle link above is no longer available, or down.   
+them in case the puzzle link above is no longer available, or down. Each file is structure as follows: 
+
+* The first two lines correspond to the first two lines in the _input_ section in the puzzle description. 
+* Lines 3 thru (2nd-to-last-line) is the light data for each light.
+* the last line is the expected output
 
 ### Excel File
 This file shows some of the analysis I was doing to verify the patterns and conditions I derived to solve this problem. 
